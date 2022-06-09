@@ -1,0 +1,109 @@
+.books {
+  background: #ffffff;
+  color: #1b3764;
+}
+
+.books__inner {
+  margin: 0 auto;
+  padding: 126px 0 140px;
+}
+
+.books__list {
+  display: flex;
+  /* justify-content: space-around; */
+  margin-top: 87px;
+}
+
+.book__list-media {
+  width: 47%;
+}
+
+.book__list-info {
+  padding: 15px 0 0px 20px;
+  max-width: 47%;
+}
+
+.books__list-item {
+  display: flex;
+  align-items: center;
+  max-width: 50%;
+}
+
+.info__title {
+  font-family: "Cardo";
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: 0.32px;
+}
+
+.info__price {
+  font-family: "Inter";
+  font-size: 21px;
+  line-height: 33px;
+  color: #ffca42;
+  display: inline-block;
+  padding: 7px 0 18px;
+}
+
+.info__text {
+  font-size: 19px;
+  line-height: 28px;
+  color: #969aa0;
+  padding-bottom: 13px;
+}
+
+.info__button {
+  margin-top: 27px;
+}
+
+@media screen and (max-width: 1100px) {
+  .books__inner {
+    margin: 0 auto;
+    padding: 70px 0;
+  }
+
+  .books__list {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .books__list-item {
+    max-width: 70%;
+    padding-bottom: 30px;
+  }
+
+  .book__list-media {
+    width: 350px;
+  }
+
+  .book__list-info {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .books__list-item {
+    max-width: 90%;
+    padding-bottom: 30px;
+  }
+
+  .book__list-media {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .books__list-item {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    padding-bottom: 30px;
+  }
+
+  .book__list-media {
+    width: 60%;
+  }
+}

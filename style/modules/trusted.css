@@ -1,0 +1,40 @@
+.trusted {
+  color: #1b3764;
+  background: #fff;
+}
+
+.trusted__inner {
+  padding: 126px 0 132px;
+}
+
+.trusted__list {
+  padding-top: 76px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.trusted__list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 24%;
+}
+.trusted__list-item-image {
+  height: 100px;
+  width: 60%;
+}
+.trusted__list-item-name {
+  font-family: "Cardo";
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  padding: 19px 0;
+}
+.trusted__list-item-text {
+  font-family: "Inter";
+  font-size: 19px;
+  line-height: 28px;
+  text-align: center;
+  color: #969aa0;
+}

@@ -1,0 +1,90 @@
+.footer {
+  background-color: #1b3764;
+  color: #b4c7e7;
+}
+
+.footer__inner {
+  padding: 100px 0 24px;
+}
+.footer__top {
+  padding-bottom: 95px;
+  display: flex;
+  justify-content: space-between;
+  /* max-width: 100%; */
+  /* padding-right: 80px; */
+}
+
+.social__logo {
+  padding-bottom: 16px;
+}
+
+.social__links svg + svg {
+  margin-left: 5px;
+}
+
+.list__title {
+  font-family: "Cardo";
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: 0.384px;
+  color: #ffffff;
+  padding-bottom: 24px;
+}
+
+.list__item-text {
+  position: relative;
+  font-family: "Inter";
+  font-size: 18px;
+  line-height: 31px;
+  letter-spacing: 0.18px;
+  color: #b4c7e7;
+  margin-left: 30px;
+  padding-bottom: 9px;
+}
+
+.list__item-text::before {
+  content: "...";
+  position: absolute;
+  margin-left: -30px;
+  top: -5px;
+  color: #ffca42;
+  font-size: 25px;
+  outline: none;
+}
+
+.list__item-text:focus::before {
+  outline: none;
+}
+
+.footer__top-address {
+  max-width: 420px;
+  padding-right: 50px;
+}
+
+.address {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-row-gap: 28px;
+
+  /* width: 300px; */
+}
+
+.address__title {
+  font-family: "Cardo";
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.36px;
+
+  color: #ffffff;
+}
+
+.address__text {
+  font-family: "Inter";
+  font-size: 17px;
+  line-height: 27px;
+  color: #b4c7e7;
+}
+
+.footer__bottom-text {
+  text-align: center;
+}

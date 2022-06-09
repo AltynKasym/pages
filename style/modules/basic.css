@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Cardo&family=Inter&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  border: none;
+  font-style: normal;
+  font-weight: 400;
+  transition: all 0.1s;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:focus {
+  outline: none;
+  border-bottom: 1px solid #ffca42;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  background: none;
+}
+button:focus {
+  outline: 1px solid #313131;
+}
+
+.container {
+  max-width: 1400px;
+  padding: 0 25px;
+  margin: 0 auto;
+}
+
+.order__button-main {
+  font-family: "Cardo";
+  font-size: 19px;
+  line-height: 28px;
+  letter-spacing: 0.57px;
+  text-transform: capitalize;
+  color: #1b3764;
+  background-color: #ffca42;
+  width: 222px;
+  padding: 18px 0px;
+  cursor: pointer;
+}
+.order__button-main:hover {
+  background-color: #f5f5f5;
+  transition: all 0.2s;
+}
+
+.order__button-secondary {
+  font-family: "Cardo";
+  font-size: 19px;
+  line-height: 28px;
+  letter-spacing: 0.57px;
+  text-transform: capitalize;
+  color: #1b3764;
+  background-color: none;
+  width: 205px;
+  padding: 18px 0px;
+  cursor: pointer;
+  border: 2px solid #ffca42;
+  display: inline-block;
+}
+.order__button-secondary:hover {
+  background-color: #ffca42;
+  transition: all 0.2s;
+}
+
+.readmore {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  letter-spacing: 0.38px;
+  text-transform: capitalize;
+  border-bottom: 1px solid #ffffff;
+  cursor: pointer;
+}
+
+.readmore:hover {
+  color: #ffca42;
+  border-bottom: 1px solid #ffca42;
+  transition: all 0.2s;
+}
+
+.list {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  margin-left: 26px;
+}
+
+.list::before {
+  position: absolute;
+  content: url("../../img/circle.svg");
+  margin-left: -27px;
+}
+
+.section__title {
+  position: relative;
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: capitalize;
+  color: inherit;
+}
+
+.section__title:after {
+  content: url("../../img/Dash.svg");
+  position: absolute;
+  left: 50%;
+  top: 30px;
+  transform: translateX(-50%) scale(1.4);
+}
+
+.section__title-second {
+  position: relative;
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 50px;
+  text-align: left;
+  text-transform: capitalize;
+  color: inherit;
+}
+
+.section__title-second:after {
+  content: url("../../img/Dash.svg");
+  position: absolute;
+  left: 8px;
+  top: 30px;
+  transform: scale(1.4);
+}
+
+.media {
+  position: relative;
+  margin-left: -50px;
+  height: fit-content;
+  width: fit-content;
+  margin-right: 20px;
+  z-index: 1;
+  /* width: 50%; */
+}
+
+.media-image {
+  position: relative;
+  max-width: 100%;
+  z-index: 0;
+}
+
+.media::after {
+  content: "";
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 97%;
+  height: 97%;
+  display: block;
+  border: 10px solid #ffca42;
+  z-index: -1;
+}
+
+@media screen and (max-width: 600px) {
+  .order__button-main {
+    width: 182px;
+    padding: 15px 0px;
+    cursor: pointer;
+  }
+  .order__button-main:hover {
+    background-color: #f5f5f5;
+    transition: all 0.2s;
+  }
+
+  .order__button-secondary {
+    font-family: "Cardo";
+    font-size: 19px;
+    line-height: 28px;
+    letter-spacing: 0.57px;
+    text-transform: capitalize;
+    color: #1b3764;
+    background-color: none;
+    width: 205px;
+    padding: 12px 0px;
+    cursor: pointer;
+    border: 2px solid #ffca42;
+  }
+  .order__button-secondary:hover {
+    background-color: #ffca42;
+    transition: all 0.2s;
+  }
+}
