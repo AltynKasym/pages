@@ -32,9 +32,6 @@
   margin-bottom: 54px;
 }
 
-/* .statistic__item {
-  max-width: 1000px;
-} */
 .statistic__item:nth-child(-n + 2) {
   padding-right: 9%;
   border-right: 1px solid #ffca42;

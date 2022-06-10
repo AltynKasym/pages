@@ -205,4 +205,20 @@ button:focus {
     background-color: #ffca42;
     transition: all 0.2s;
   }
+
+  .section__title {
+    font-size: 30px;
+  }
+
+  .section__title-second {
+    font-size: 30px;
+  }
+
+  .section__title:after {
+    top: 15px;
+  }
+
+  .section__title-second:after {
+    top: 15px;
+  }
 }

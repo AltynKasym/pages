@@ -126,7 +126,6 @@
     flex-wrap: wrap;
     align-items: start;
     justify-items: start;
-    /* gap: 30px; */
   }
 
   .social__links {
@@ -141,11 +140,18 @@
   .footer__top div {
     margin-bottom: 50px;
   }
+
+  .footer__top div:first-child {
+    order: 1;
+  }
+  .footer__top div:nth-child(4) {
+    order: 4;
+  }
 }
 
 @media screen and (max-width: 700px) {
   .footer__inner {
-    padding: 50px 0 24px 50px;
+    padding: 50px 0 24px 20px;
   }
   .footer__top {
     padding-bottom: 30px;
@@ -162,5 +168,9 @@
 
   .footer__top div {
     margin-bottom: 30px;
+  }
+
+  .footer__top div:first-child {
+    order: 0;
   }
 }
