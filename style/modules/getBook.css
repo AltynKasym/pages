@@ -25,3 +25,22 @@
 .getBook__info-button {
   color: #ffffff;
 }
+
+@media screen and (max-width: 1105px) {
+  .getBook__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 0;
+  }
+
+  .getBook__info {
+    width: 80%;
+    margin-bottom: 50px;
+  }
+
+  .getBook__media {
+    width: 70%;
+  }
+}

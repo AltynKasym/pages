@@ -19,10 +19,11 @@
   align-items: center;
   justify-content: center;
   width: 24%;
+  padding: 0 10px;
 }
 .trusted__list-item-image {
-  height: 100px;
-  width: 60%;
+  /* height: 100px;
+  width: 100%; */
 }
 .trusted__list-item-name {
   font-family: "Cardo";
@@ -37,4 +38,46 @@
   line-height: 28px;
   text-align: center;
   color: #969aa0;
+}
+
+@media screen and (max-width: 1100px) {
+  .trusted__inner {
+    padding: 50px 0;
+  }
+
+  .trusted__list {
+    padding-top: 76px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .trusted__list-item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    padding: 0 10px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .trusted__list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  .trusted__list-item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    padding: 0 10px;
+  }
 }
